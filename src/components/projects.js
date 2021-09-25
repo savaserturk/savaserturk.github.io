@@ -65,19 +65,7 @@ class projects extends Component{
                     <IconButton name="share"/>
                 </CardMenu>
                </Card> 
-                {/**PROJECT 1 */}
-                <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-                   <CardTitle style={{color:"#fff",height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Php_logo.svg/1280px-Php_logo.svg.png) center / cover'}}>My PHP Project</CardTitle>
-                <CardText> Naber nasilsin iyidir sen nasilsi bende iyiytim nasil olayim iste</CardText>
-                <CardActions border>
-                    <Button colored >GitHub</Button>
-                    <Button colored>Facebook</Button>
-                    <Button colored>Live Demo </Button>
-                </CardActions>
-                <CardMenu style={{color:'#fff'}}>
-                    <IconButton name="share"/>
-                </CardMenu>
-               </Card> 
+ 
                
                
                </div>
@@ -101,9 +89,10 @@ class projects extends Component{
          return(
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId)=> this.setState({activeTab:tabId})} ripple>
-                    <Tab>PHP </Tab>
-                    <Tab>SQL </Tab>
-                    <Tab>JAVA </Tab>
+                    <Tab>Web </Tab>
+                    <Tab>Desktop </Tab>
+                    <Tab>Mobile </Tab>
+                    <Tab>IoT </Tab>
                 </Tabs>
                 
                     <Grid>
