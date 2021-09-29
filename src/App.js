@@ -13,8 +13,7 @@ function App() {
                 <Link to="/">Home Page</Link>
                <Link to="/resume">Resume</Link>
                <Link to="/aboutme">Aboutme</Link>
-               <Link to="/Projects">Projects</Link>
-               <Link to="/Contact">Contact</Link>
+               <Link to="/projects">Projects</Link>
             </Navigation>
         </Header>
         <Drawer title="Savas Erturk">
@@ -22,8 +21,7 @@ function App() {
              <Link to="/">Home</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">Aboutme</Link>
-            <Link to="/Projects">Projects</Link>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/projects">Projects</Link>
             </Navigation>
         </Drawer>
         <Content>

@@ -8,18 +8,18 @@ class landingpage extends Component{
             <div style={{with:'100%',margin:'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="t.jpg"  alt="avatar" style={ {borderRadius:'100px'}} className="avatar-image" />
+                        <img src="/images/t.jpg"  alt="avatar" style={ {borderRadius:'100px'}} className="avatar-image" />
                         <div className="banner-text">
                             <h1>Programmer</h1>
                             <hr/>
-                            <p>JAVA | PHP | PYTHON </p>
+                            <p>JAVA | PHP | JS </p>
                             <div className="social-links">
                                 {/*facebook  */}
                                 <a href="https://www.facebook.com/savasert" rel="noopener noreferrer"  target="_blank">
                                 <i class="fa fa-facebook-square" aria-hidden="true"></i>
                                 </a>
                                  {/*github  */}
-                                 <a href="https://www.facebook.com/savasert" rel="noopener noreferrer"  target="_blank">
+                                 <a href="https://www.github.com/savaserturk" rel="noopener noreferrer"  target="_blank">
                                 <i class="fa fa-github-square" aria-hidden="true"></i>
                                 </a>
                                  {/*linkedin  */}

@@ -15,12 +15,10 @@ class projects extends Component{
                 <div className="projects-grid">
                 {/**PROJECT 1 */}
                <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-                   <CardTitle style={{color:"#fff",height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Php_logo.svg/1280px-Php_logo.svg.png) center / cover'}}>My PHP Project</CardTitle>
-                <CardText> Naber nasilsin iyidir sen nasilsi bende iyiytim nasil olayim iste</CardText>
-                <CardActions border>
-                    <Button colored >GitHub</Button>
-                    <Button colored>Facebook</Button>
-                    <Button colored>Live Demo </Button>
+                   <CardTitle style={{color:"#fff",height:'176px',background:'url(https://artismyjob.com/img/user/basic.png) center / cover'}}>My PHP Project</CardTitle>
+                <CardText> Art portfolio website - Created for artists and upcoming artists to provide a digital portfolio.</CardText>
+                <CardActions border>    
+                    <a target="blank" href={"https://artismyjob.com"} ><Button colored>Website</Button></a>
                 </CardActions>
                 <CardMenu style={{color:'#fff'}}>
                     <IconButton name="share"/>
@@ -81,6 +79,22 @@ class projects extends Component{
         else if(this.state.activeTab===2){
             return(
                 <div><h1>This is JAVA</h1></div>
+            )
+        }else if(this.state.activeTab===3){
+            return(
+                <div>
+                     {/**PROJECT 1 */}
+                 <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                   <CardTitle style={{color:"#000000",height:'176px',background:'url(http://theskitter.com/skitter.jpg) center / cover'}}>Skitter</CardTitle>
+                <CardText> Created small ordering device for different purposes.</CardText>
+                <CardActions border>
+                    <a target="blank" href={"https://theskitter.com"} > <Button colored>Web site</Button></a>
+                </CardActions>
+                <CardMenu style={{color:'#fff'}}>
+                    <IconButton name="share"/>
+                </CardMenu>
+               </Card> 
+                </div>
             )
         }
     }
